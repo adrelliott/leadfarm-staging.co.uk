@@ -21,6 +21,8 @@
 //Include the file that sets out the app & environment
 include('../application/config/app_settings.php');
 
+var_dump(dirname(__FILE__));
+
 //now test the root and determine the environment
 foreach ($app_settings['environment'] as $k => $v)
 {
