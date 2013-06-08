@@ -16,10 +16,10 @@ $app_settings = array();
 //What are the domains for the environments?
 $app_settings['environment'] = array
         (
-            'development' => '/Applications/MAMP/htdocs/projects/_frameworks/CI_Configured_and_ready_to_go/public_html',
+            'development' => '/Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/public_html',
             //'staging' => '/tmp:/var/sites/s/staging.whosentmethis.co.uk/public_html/public_html',
-            'staging' => '/var/sites/s/staging.whosentmethis.co.uk/public_html/public_html',
-            'production' => '/var/sites/w/whosentmethis.co.uk/public_html',
+            'staging' => '/var/sites/s/staging.leadfarm-staging.co.uk/public_html/public_html',
+            'production' => '/var/sites/w/leadfarm-staging.co.uk/public_html',
         );
 
 //What is the path to the system folder ('core' or 'CI_Framework') for each 

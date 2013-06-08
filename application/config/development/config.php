@@ -15,7 +15,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://localhost:8888/projects/_frameworks/CI_Configured_and_ready_to_go/PUblic_html/';
+$config['base_url'] = 'http://localhost:8888/projects/leadfarm-staging.co.uk/PUblic_html/';
 
 /*
 |--------------------------------------------------------------------------

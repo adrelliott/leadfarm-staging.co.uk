@@ -49,9 +49,9 @@ $active_record = TRUE;
 
 
 $db['staging']['hostname'] = '10.168.1.56';
-$db['staging']['username'] = 'whosentm_global';
+$db['staging']['username'] = 'leadfarm_user';
 $db['staging']['password'] = 'DMmanch130';
-$db['staging']['database'] = 'whosentm_test';
+$db['staging']['database'] = 'leadfarm_test';
 $db['staging']['dbdriver'] = 'mysql';
 $db['staging']['dbprefix'] = '';
 $db['staging']['pconnect'] = TRUE;
