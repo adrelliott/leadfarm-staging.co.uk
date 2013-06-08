@@ -30,6 +30,27 @@ foreach ($app_settings['environment'] as $k => $v)
         define('ENVIRONMENT', $k);
 }
 
+/*
+ *---------------------------------------------------------------
+ * SETUP DATABASE CONFIG
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+
+//Start native PHP session
+session_start();
+
+//Determine what db to use (only on 'staging' environment)
+// (reset to stagin db by loging out or passing '?db'
+if (isset($_GET['db']))
+{
+    if ($_GET['db'] == 'p') $_SESSION['settings']['db'] = 'p';
+    else unset($_SESSION['settings']['db']);
+}
+        
+
 
 /*
  *---------------------------------------------------------------

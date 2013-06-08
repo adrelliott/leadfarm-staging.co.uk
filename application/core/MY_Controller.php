@@ -17,20 +17,12 @@ class MY_Controller extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        
-        //Start native PHP session
-        session_start();
+        //PHP SEssion is started in index.php
         
         //Allow the use of $_GET parameters in the URL
         parse_str($_SERVER['QUERY_STRING'], $_GET);
         
-        //Determine what db to use (only on 'staging' environment)
-        // (reset to stagin db by loging out or passing '?db'
-        if (isset($_GET['db']))
-        {
-            if ($_GET['db'] == 'p') $_SESSION['settings']['db'] = 'p';
-            else unset($_SESSION['settings']['db']);
-        }
+        
         
         //Show debug info if asked:
         if (isset($_GET['debug']) && ENVIRONMENT !== 'production') 
