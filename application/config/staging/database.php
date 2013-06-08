@@ -64,7 +64,24 @@ $db['staging']['swap_pre'] = '';
 $db['staging']['autoinit'] = TRUE;
 $db['staging']['stricton'] = FALSE;
 
-$active_group = 'staging';
+$db['production']['hostname'] = '10.168.1.56';
+$db['production']['username'] = 'leadfarm_prod';
+$db['production']['password'] = 'DMmanch130';
+$db['production']['database'] = 'leadfarm_production';
+$db['production']['dbdriver'] = 'mysql';
+$db['production']['dbprefix'] = '';
+$db['production']['pconnect'] = TRUE;
+$db['production']['db_debug'] = TRUE;
+$db['production']['cache_on'] = FALSE;
+$db['production']['cachedir'] = '';
+$db['production']['char_set'] = 'utf8';
+$db['production']['dbcollat'] = 'utf8_general_ci';
+$db['production']['swap_pre'] = '';
+$db['production']['autoinit'] = TRUE;
+$db['production']['stricton'] = FALSE;
+
+if (isset($_SESSION['settings']['db']) && $_SESSION['settings']['db'] == 'p') $active_group = 'production';
+else $active_group = 'staging';
 
 /* End of file database.php */
 /* Location: ./application/config/staging/database.php */

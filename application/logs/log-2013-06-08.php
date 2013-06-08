@@ -12,3 +12,12 @@ ERROR - 2013-06-08 12:46:46 --> Severity: Warning  --> Cannot modify header info
 ERROR - 2013-06-08 12:48:15 --> Severity: Warning  --> include(config/app_settings.php): failed to open stream: No such file or directory /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/config/development/config.php 3
 ERROR - 2013-06-08 12:48:15 --> Severity: Warning  --> include(): Failed opening 'config/app_settings.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.4.10/lib/php') /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/config/development/config.php 3
 ERROR - 2013-06-08 12:48:15 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/CI_Framework/core/Exceptions.php:185) /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/CI_Framework/libraries/Session.php 675
+ERROR - 2013-06-08 13:14:58 --> Severity: Notice  --> Undefined variable: _SESSION /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/controllers/welcome.php 24
+ERROR - 2013-06-08 13:28:49 --> Severity: Notice  --> Undefined property: CI_Loader::$data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 93
+ERROR - 2013-06-08 13:56:27 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/common/navbar.php 2
+ERROR - 2013-06-08 13:57:03 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/common/navbar.php 2
+ERROR - 2013-06-08 13:58:34 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 18
+ERROR - 2013-06-08 13:59:01 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 18
+ERROR - 2013-06-08 14:00:16 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 18
+ERROR - 2013-06-08 14:00:25 --> Severity: Notice  --> Undefined variable: data /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 18
+ERROR - 2013-06-08 14:00:38 --> Severity: Notice  --> Undefined variable: boffy /Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/application/views/welcome_message.php 18

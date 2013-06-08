@@ -48,9 +48,9 @@
 $active_record = TRUE;
 
 $db['production']['hostname'] = '10.168.1.56';
-$db['production']['username'] = 'leadfarm_user';
+$db['production']['username'] = 'leadfarm_prod';
 $db['production']['password'] = 'DMmanch130';
-$db['production']['database'] = 'leadfarm_test';
+$db['production']['database'] = 'leadfarm_production';
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;
