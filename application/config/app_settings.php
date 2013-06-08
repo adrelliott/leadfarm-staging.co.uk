@@ -12,15 +12,19 @@
 
 $app_settings = array();
 
+/* Set up the project
+ * 1. The local directory should be called 'projects/{domainname.co.uk}
+ * 2. The staging sudomain should be staging.{domainname.co.uk}
+ * 3. The production doamain should be {domainname.co.uk}
+ */
+define('DOMAIN_NAME', 'leadfarm-staging.co.uk'); //This is the project name
 
 //What are the domains for the environments?
 $app_settings['environment'] = array
         (
-            'development' => '/Applications/MAMP/htdocs/projects/leadfarm-staging.co.uk/public_html',
-            //'staging' => '/tmp:/var/sites/s/staging.whosentmethis.co.uk/public_html/public_html',
-            'staging' => '/var/sites/s/staging.leadfarm-staging.co.uk/public_html/public_html',
-            //'production' => '/var/sites/w/leadfarm-staging.co.uk/public_html',
-            'production' => '/var/sites/l/leadfarm-staging.co.uk/public_html',
+            'development' => '/Applications/MAMP/htdocs/projects/' . DOMAIN_NAME . '/public_html',
+            'staging' => '/var/sites/s/staging.' . DOMAIN_NAME . '/public_html/public_html',
+            'production' => '/var/sites/l/' . DOMAIN_NAME . '/public_html',
         );
 
 //What is the path to the system folder ('core' or 'CI_Framework') for each 

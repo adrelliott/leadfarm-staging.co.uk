@@ -15,7 +15,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://staging.leadfarm-staging.co.uk/public_html'; //or subdomain
+$config['base_url'] = 'http://staging.' . DOMAIN_NAME . '/public_html'; //or subdomain
 
 /*
 |--------------------------------------------------------------------------

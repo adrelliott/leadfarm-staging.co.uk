@@ -15,7 +15,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://leadfarm-staging.co.uk/';
+$config['base_url'] = 'http://' . DOMAIN_NAME . '/';
 
 /*
 |--------------------------------------------------------------------------

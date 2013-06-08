@@ -1,6 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-
 /*
 |--------------------------------------------------------------------------
 | Base Site URL         ******* EDIT ME! ********
@@ -15,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://localhost:8888/projects/leadfarm-staging.co.uk/PUblic_html/';
+$config['base_url'] = 'http://localhost:8888/projects/' . DOMAIN_NAME . '/public_html/';
 
 /*
 |--------------------------------------------------------------------------
