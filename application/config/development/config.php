@@ -1,20 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-/*
-|--------------------------------------------------------------------------
-| Base Site URL         ******* EDIT ME! ********
-|--------------------------------------------------------------------------
-|
-| URL to your CodeIgniter root. Typically this will be your base URL,
-| WITH a trailing slash:
-|
-|	http://example.com/
-|
-| If this is not set then CodeIgniter will guess the protocol, domain and
-| path to your installation.
-|
-*/
-$config['base_url'] = 'http://localhost:8888/projects/' . DOMAIN_NAME . '/public_html/';
 
 /*
 |--------------------------------------------------------------------------
@@ -57,7 +42,62 @@ $config['sess_time_to_update']	= 300;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*         ******* SHOULDNT BE ANY NEED TO EDIT BELOW THIS LINE ********       /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Base Site URL
+|--------------------------------------------------------------------------
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|	http://example.com/
+|
+| If this is not set then CodeIgniter will guess the protocol, domain and
+| path to your installation.
+|
+*/
+$config['base_url'] = 'http://localhost:8888/projects/' . DOMAIN_NAME . '/public_html/';
 
 
 /*
