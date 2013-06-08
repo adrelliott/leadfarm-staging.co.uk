@@ -82,6 +82,7 @@ $db['production']['stricton'] = FALSE;
 
 if (isset($_SESSION['settings']['db']) && $_SESSION['settings']['db'] == 'p') $active_group = 'production';
 else $active_group = 'staging';
+echo "active group is " . $active_group ;
 
 /* End of file database.php */
 /* Location: ./application/config/staging/database.php */
